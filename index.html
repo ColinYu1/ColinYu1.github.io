@@ -267,6 +267,33 @@ a:hover{color:#566c7f}
 
                 <!-- NEW: Afford2Act entry (representative) -->
 
+
+                <!-- OmniTacTune (first; representative) -->
+                <div class="pub-card rep" data-year="2026" data-selected="true">
+                    <div class="row">
+                        <div class="col-l col-xs-12 col-lg-3">
+                            <img src="images/omnitact.jpg" onerror="this.style.display='none'" width="100%"/>
+                        </div>
+                        <div class="col-r col-xs-12 col-lg-9">
+                            <div class="pub-card-body">
+                                <h5 class="title">OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies </h5>
+                                <h6 class="authors">
+                                    <u>Kelin Yu*</u>,
+                                    <a href="https://haodezhang.github.io/">Haode Zhang*</a>,
+                                    <a href="https://harishravichandar.com/">Harish Ravichandar</a>,
+                                    <a href="https://y8han.github.io/">Yunhai Han</a>,
+                                    <a href="https://ruohangao.github.io/">Ruohan Gao</a>,
+                                    <a> (Haode is my undergraduate mentee)</a>
+                                </h6>
+                                <p class="info">
+                                    <span class="conference">In Submission</span> <br>
+                                </p>
+                                OmniTacTune uses a two-stage RL design that first warm-starts tactile-aware learning from autonomous base-policy rollouts, and then learns a lightweight tactile residual policy through online interaction. This design requires no offline tactile demonstrations or base-policy finetuning, making tactile adaptation efficient and low-cost. OmniTacTune generalizes across diverse contact-rich tasks, visual base policies from both human videos and teleoperated demos, and tactile representations. Across four contact-rich real-world tasks, it improves weak visual base policies from 5-40% success to 85-100% within 40-80 minutes, demonstrating an efficient way to adapt tactile feedback to scalable visual robot policies.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- ControlTac (co-first; representative) -->
                 <div class="pub-card rep" data-year="2024" data-selected="true">
                     <div class="row">
@@ -297,6 +324,64 @@ a:hover{color:#566c7f}
                     </div>
                 </div>
                 
+
+                <!-- HumanEgo -->
+                <div class="pub-card" data-year="2026" data-selected="true">
+                    <div class="row">
+                        <div class="col-l col-xs-12 col-lg-3">
+                            <img src="images/humanego.jpg" onerror="this.style.display='none'" width="100%"/>
+                        </div>
+                        <div class="col-r col-xs-12 col-lg-9">
+                            <div class="pub-card-body">
+                                <h5 class="title">HumanEgo: Zero-Shot Robot Learning from Minutes of Human Egocentric Videos </h5>
+                                <h6 class="authors">
+                                    <a href="https://tx-leo.github.io/">Zhi Wang</a>,
+                                    <a href="https://bottle101.github.io/">Botao He</a>,
+                                    <u>Kelin Yu</u>,
+                                    <a href="https://sjlee.cc/">Seungjae Lee</a>,
+                                    <a href="https://ruohangao.github.io/">Ruohan Gao</a>,
+                                    <a href="https://furong-huang.com/">Furong Huang</a>,
+                                    <a href="https://robotics.umd.edu/clark/faculty/350/Yiannis-Aloimonos">Yiannis Aloimonos</a>
+                                </h6>
+                                <p class="info">
+                                    <a href="https://arxiv.org/abs/2605.24934">Paper</a> /
+                                    <a href="https://humanego-ai.github.io/">Website</a> /
+                                    <a href="https://github.com/HumanEgo-ai/HumanEgo">Code</a> /
+                                    <a href="https://youtu.be/0BMRwF9HACQ">Video</a> /
+                                    <span class="conference">In Submission</span>
+                                </p>
+                                HumanEgo learns robot manipulation policies from minutes of raw human egocentric videos by lifting demonstrations into entity-level hand-object interaction representations and training a flow matching policy with dense auxiliary objectives. The framework is robot-data-free, hardware-agnostic, data-efficient, and zero-shot transferable across different robot setups.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- OdorSpaces -->
+                <div class="pub-card" data-year="2026" data-selected="true">
+                    <div class="row">
+                        <div class="col-l col-xs-12 col-lg-3">
+                            <img src="images/fire.jpg" onerror="this.style.display='none'" width="100%"/>
+                        </div>
+                        <div class="col-r col-xs-12 col-lg-9">
+                            <div class="pub-card-body">
+                                <h5 class="title">OdorSpaces: Visual-Olfactory Embodied Navigation in 3D Environments </h5>
+                                <h6 class="authors">
+                                    <a href="https://changyeon2.github.io/">Changyeon Lee</a>,
+                                    <u>Kelin Yu</u>,
+                                    <a>Zheng Wei</a>,
+                                    <a>Shuna Ni</a>,
+                                    <a href="https://ruohangao.github.io/">Ruohan Gao</a>
+                                </h6>
+                                <p class="info">
+                                    <span class="conference">In Submission</span> <br>
+                                </p>
+                                We introduce OdorSpaces, a 3D visual-olfactory navigation framework that augments Habitat-Sim with physics-based odor dynamics simulated by FDS (Fire Dynamics Simulator). OdorSpaces defines two physically distinct navigation scenarios: a fire scenario, where buoyant carbon dioxide (CO<sub>2</sub>) rises and forms upper-region odor fields, and a gas-leak scenario, where dense propane gas (C<sub>3</sub>H<sub>8</sub>) settles and spreads near the floor. We train multimodal reinforcement learning agents that use visual observations and olfactory measurements, and show that they outperform chemotaxis, biomimetic plume tracking, and history-based odor-gradient estimation baselines across both scenarios.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="pub-card" data-year="2025" data-selected="true">
                     <div class="row">
                         <div class="col-l col-xs-12 col-lg-3">
